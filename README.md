@@ -1,3 +1,7 @@
+# Description 
+
+These project is all about creating a list, it can either be a grocery list or any. But I prefer it as a grocery list since it can help me manage my grocery.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
