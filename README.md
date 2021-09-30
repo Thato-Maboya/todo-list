@@ -2,6 +2,22 @@
 
 These project is all about creating a list, it can either be a grocery list or any. But I prefer it as a grocery list since it can help me manage my grocery.
 
+## Summary if the project
+
+The project has 3 label names: Task Name, Description & Due Date of the product. Only Description is optional and others are mandatory. This project is static hence it does not have the database but is has the local storage for displaying and storing the data.
+
+## Functions 
+
+1. CreateListItems() - for posting the submitted data tk local storage.
+2  setupItem() - adding and displaying the data below the form.
+3. SetBackToDefault() - clearing the form after submitting any information.
+4. addToLocalStorage() - after creating the item it is copied to the local storage incase the is a data loss.
+5. getLocalStorage() - populate the info, once after the user has lost interest to the site/project when visiting the site again. 
+6. removeFromLocalStorage() - once you click the button delete it permanently delete the item using the item ID.
+7. editLocalStorage() - it updates the information once you click edit button from the form and changing the specific field.
+
+The is also clear list which delete everything at once and empty the list storage.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
